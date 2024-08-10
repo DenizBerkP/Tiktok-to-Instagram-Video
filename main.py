@@ -28,7 +28,7 @@ while True:
         mp4Files = glob.glob(os.path.join(downloadsPath, "*.mp4"))
         for file in mp4Files:
             try:
-                os.remove(file)
+                os.remove(file) # WARNING: This code deletes all mp4 files in downloadsPath 
             except Exception as e:
                 pass
                 
