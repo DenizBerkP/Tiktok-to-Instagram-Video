@@ -59,6 +59,7 @@ while True:
         caption = 'Credit: .....' # Caption
         client.clip_upload(video_path, caption, cover_path)
         
+        i += 1
         print(now, "Shared.")
         driver.exit()
     elif not now.hour in share_Hours:
