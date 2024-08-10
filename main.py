@@ -9,7 +9,7 @@ import glob
 
 # txt File containing the links you want to share on Instagram Reels
 with open('links.txt', 'r') as file:
-    linkler = [line.strip() for line in file]
+    links = [line.strip() for line in file]
 
 # Login Instagram
 client = Client() 
